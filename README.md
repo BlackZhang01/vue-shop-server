@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-11-27 09:16:20
+ * @LastEditTime: 2021-11-27 12:44:35
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /vue_shop_server/README.md
+-->
 #### 项目整体文件说明
 - `config` 配置文件目录
   - `default.json` 默认配置文件（其中包含数据库配置，jwt配置）
@@ -17,3 +25,5 @@
 - `services` 服务层，业务逻辑代码在这一层编写，通过不同的接口获取的数据转换成统一的前端所需要的数据
 - `app.js` 主项目入口文件
 - `package.json` 项目配置文件
+
+先运行 npm install 安装依赖包
